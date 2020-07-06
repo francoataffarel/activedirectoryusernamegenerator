@@ -1,8 +1,8 @@
-# !/usr/bin/env python3
+# !/usr/bin/ python3
 
 import argparse
 arg_parser = argparse.ArgumentParser( description = "Gerador de usernames por nome com dois campos" )
-arg_parser.add_argument( "source_file" )
+arg_parser.add_argument("Arquivo com uma lista de nomes" )
 arguments = arg_parser.parse_args()
 source = arguments.source_file
 
